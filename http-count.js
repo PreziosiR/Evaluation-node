@@ -70,6 +70,22 @@ app.get('/plop', (req, res) => {
     incrementCount()
 })
 
+app.get('/json', (req, res) => {
+    const option = {
+        'Content-type':'txt/json'
+    }
+    fs.writeFile('./count.json', '{"Current": "' + Current + '", "AllTime":"' + alltime + '"}',(err, content) => {
+        if(err) {
+            console.log(err)
+        } else {
+            console.log('success')
+        }
+    })
+    res.sendfile('./count.json', option)
+    Current ++
+    incrementCount()
+})
+
 function incrementCount() {
     const data = fs.readFile('./counter/' + port + '.txt', (err, content) => {
         if(err){
@@ -99,8 +115,4 @@ function reset() {
             }
         })
     }
-}
-
-exports.module = {
-    reset: reset
 }
