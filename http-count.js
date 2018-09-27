@@ -81,7 +81,7 @@ app.get('/json', (req, res) => {
             console.log('success')
         }
     })
-    res.sendfile('./count.json', option)
+    res.sendfile('./count.json')
     Current ++
     incrementCount()
 })
