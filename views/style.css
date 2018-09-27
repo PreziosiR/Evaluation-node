@@ -1,0 +1,38 @@
+section{
+    margin: 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: aquamarine;
+    vertical-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    align-self: center;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+
+a:hover{
+    text-decoration: none;
+    color: crimson;
+    transition: 0.4s;
+    background-color: grey;
+}

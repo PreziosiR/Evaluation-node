@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <title>Validation</title>
+    </head>
+    <body>
+        <h1>Exo 3 :</h1>
+
+        <aside>
+            <ul>
+                <a href="/hop">
+                    <li>Hop</li>
+                </a>
+                <a href="/plop">
+                    <li>plop</li>
+                </a>
+                <a href="/json">
+                    <li>json</li>
+                </a>
+            </ul>
+        </aside>
+        <section>
+            <p>
+                Ceci est la page principale
+            </p>
+        </section>
+        <section>
+            <article id="current">Current : {{countCurrent}} </article>
+            <article id="alltime">All Time : {{countAlltime}} </article>
+        </section>
+        <section>
+            <form action="/" method="get">
+                <label for="currentcheck">Current</label>
+                <input type="checkbox" name="currentcheck" id="currentcheck">
+                <label for="alltimecheck">All time</label>
+                <input type="checkbox" name="alltimecheck" id="alltimecheck">   
+                <input type="submit" value="Reset" id="send" name="send">
+            </form>
+        </section>
+    </body>
+    <script src="../http-count.js"></script>
+    <script src="../index.js"></script>
+</html>
