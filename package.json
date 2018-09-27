@@ -1,0 +1,23 @@
+{
+  "name": "validation-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PreziosiR/Evaluation-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PreziosiR/Evaluation-node/issues"
+  },
+  "homepage": "https://github.com/PreziosiR/Evaluation-node#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "nodemon": "^1.18.4"
+  }
+}
