@@ -19,5 +19,9 @@
   "devDependencies": {
     "browser-sync": "^2.24.7",
     "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "depd": "^1.1.2",
+    "express": "^4.16.3"
   }
 }
