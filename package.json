@@ -18,6 +18,10 @@
   "homepage": "https://github.com/PreziosiR/Evaluation-node#readme",
   "devDependencies": {
     "browser-sync": "^2.24.7",
+    "chalk": "^2.4.1",
     "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "file-system": "^2.2.2"
   }
 }
